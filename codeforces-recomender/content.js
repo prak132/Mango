@@ -52,3 +52,8 @@ if (targetElement) {
 } else {
     console.log('Target element not found.');
 }
+
+var ratingElement = document.querySelector('.tag-box[title="Difficulty"]');
+var ratingText = ratingElement.textContent;
+var rating = parseInt(ratingText.replace('*', ''), 10);
+console.log(rating);
