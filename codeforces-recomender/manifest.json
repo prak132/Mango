@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Codeforces Recomender",
+    "version": "0.1",
+    "description": "Recomends problems",
+    "permissions": ["activeTab"],
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "content_scripts": [
+      {
+        "matches": ["https://codeforces.com/problemset/problem/*"],
+        "js": ["content.js", "slider.js"]
+      }
+    ]
+  }
+  
