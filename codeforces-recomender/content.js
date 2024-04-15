@@ -1,3 +1,4 @@
+let problem_link = ["/problemset/problem/69/A", "/problemset/problem/69/B", "/problemset/problem/69/C", "/problemset/problem/69/D"];
 var targetElement = document.querySelector('div.roundbox.sidebox.sidebar-menu.borderTopRound');
 if (targetElement) {
     var newElement = document.createElement('div');
@@ -10,7 +11,7 @@ if (targetElement) {
         <ul>
         <li>
             <span>
-            <a href="/problemset/problem/69/A" target="_blank">
+            <a href="${problem_link[0]}" target="_blank">
                 Problem 1
             </a>
             </span>
@@ -20,7 +21,7 @@ if (targetElement) {
     
         <li>
             <span>
-            <a href="/problemset/problem/69/A" target="_blank">
+            <a href="${problem_link[1]}" target="_blank">
                 Problem 2
             </a>
             </span>
@@ -29,7 +30,7 @@ if (targetElement) {
         </li>
         <li>
             <span>
-            <a href="/problemset/problem/69/A" target="_blank">
+            <a href="${problem_link[2]}" target="_blank">
                 Problem 3
             </a>
             </span>
@@ -38,7 +39,7 @@ if (targetElement) {
         </li>
         <li>
             <span>
-            <a href="/problemset/problem/69/A" target="_blank">
+            <a href="${problem_link[3]}" target="_blank">
                 Problem 4
             </a>
             </span>
@@ -52,8 +53,11 @@ if (targetElement) {
 } else {
     console.log('Target element not found.');
 }
-
-var ratingElement = document.querySelector('.tag-box[title="Difficulty"]');
-var ratingText = ratingElement.textContent;
-var rating = parseInt(ratingText.replace('*', ''), 10);
-console.log(rating);
+try {
+    var ratingElement = document.querySelector('.tag-box[title="Difficulty"]');
+    var ratingText = ratingElement.textContent;
+    var rating = parseInt(ratingText.replace('*', ''), 10);
+    console.log(rating);
+} catch (error) {
+    console.log('cant find the rating');
+}
