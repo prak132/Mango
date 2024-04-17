@@ -2,7 +2,7 @@
 A browser extension to enhance [Codeforces](https://codeforces.com) problem finding
 
 **For practice**
-Mango is a browser extension designed to enhance your problem-solving experience on Codeforces by suggesting similar problems based on their tags and difficulty levels. Leveraging cosine similarity and a curated list of unique problem tags, Mango provides personalized recommendations to help you practice and improve your algorithmic skills.
+- Mango is a browser extension designed to enhance your problem-solving experience on Codeforces by suggesting similar problems based on their tags and difficulty levels. Leveraging cosine similarity and a curated list of unique problem tags, Mango provides personalized recommendations to help you practice and improve your algorithmic skills.
 
 ## Features
 
