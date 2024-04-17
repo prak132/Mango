@@ -1,2 +1,2 @@
-# codeforces-recommender-main
+# Mango
  codeforces recommender
