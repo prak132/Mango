@@ -1,6 +1,5 @@
 # Mango
-
-![alt text](https://github.com/prak132/Mango/blob/main/Mango/icons/icon.png)
+![icon](Mango/icons/icon.png)
 
 A browser extension to enhance [Codeforces](https://codeforces.com) problem finding
 
