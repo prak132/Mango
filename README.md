@@ -1,5 +1,5 @@
 # Mango
-![icon](Mango/icons/icon.png)
+![icon](Mango/icons/icon.svg)
 
 A browser extension to enhance [Codeforces](https://codeforces.com) problem finding
 
