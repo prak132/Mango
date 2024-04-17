@@ -13,10 +13,10 @@ Mango is a browser extension designed to enhance your problem-solving experience
 
 ## Contributing
 
-Mango is an open-source project, and contributions are welcome! If you have any suggestions, bug reports, or feature requests, please feel free to [open an issue](https://github.com/yourusername/yourrepository/issues) or submit a pull request.
+Mango is an open-source project, and contributions are welcome! If you have any suggestions, bug reports, or feature requests, please feel free to [open an issue](https://github.com/prak132/Mango/issues) or submit a pull request.
 
 ## License
 
-Mango is licensed under the [MIT License](https://opensource.org/licenses/MIT), allowing for free distribution and modification. See the [LICENSE](https://github.com/yourusername/yourrepository/blob/main/LICENSE) file for details.
+Mango is licensed under the [MIT License](https://opensource.org/licenses/MIT), allowing for free distribution and modification. See the [LICENSE](https://github.com/prak132/Mango/blob/main/LICENSE) file for details.
 
 Mango is developed and maintained by [prak132](https://github.com/prak132) and [dycoke](https://github.com/dycoke).
