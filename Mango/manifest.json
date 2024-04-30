@@ -3,7 +3,7 @@
   "name": "Mango",
   "version": "0.1",
   "description": "Recomendation System for Codeforces Problems",
-  "permissions": ["activeTab", "storage", "unlimitedStorage"],
+  "permissions": [],
   "icons": {
     "16": "icons/icon.png",
     "48": "icons/icon.png",
